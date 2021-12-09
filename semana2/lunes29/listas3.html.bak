@@ -1,0 +1,38 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Tablas 3</title>
+	</head>
+	<body>
+		<h1>Crea dos listas, una tiene que ser numérica, de enlaces externos y que se abran en una 
+		ventana diferente. La otra tiene que ser de enlaces a imágenes.</h1>
+		<ol>
+			<li>
+				<a href="https://www.harley-davidson.com/es/es/index.html" rel="next" target="_blank">
+				Harley Davidson</a>
+			</li>
+			<li>
+				<a href="https://www.ferrari.com/es-ES" rel="next" target="_blank">Ferrari</a>
+			</li>
+			<li>
+				<a href="https://www.tesla.com/es_es" rel="next" target="_blank">Tesla</a>
+			</li>
+		</ol>
+		<ul type="A">
+			<li>
+				<a href="https://www.moto1pro.com/sites/default/files/harley-davidson-sportster-1.jpg"
+				rel="next" target="_blank">Harley</a>
+			</li>
+			<li>
+				<a href="https://i.blogs.es/6c7aae/ferrari-f42-07/1366_2000.jpg" rel="next" target="_blank">
+				Ferrari</a>
+			</li>
+			<li>
+				<a href="https://www.hibridosyelectricos.com/media/hibridos/images/2021/06/10/2021061013294
+				373451.jpg" rel="next" target="_blank">Tesla</a>
+			</li>
+		</ul>
+	</body>
+</html>
+				

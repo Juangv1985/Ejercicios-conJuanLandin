@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario 3 casa</title>
+	</head>
+	<body>
+	<!-- 3. Crea un formulario exactamente igual al de la imagen. (Pista: yo 
+	abriría el documento de las tablas... por si acaso... *cof cof*)-->
+		<table bordercolor="C3C4C8" align="center" width="55%" border="4"/>
+			<tbody>
+				<tr>
+					<th colspan="3">Inscripción del bootcamp</th>
+				</tr>
+				<tr>
+					<td colspan="2">Rellene el campo con su nombre</td>
+					<td><input type="text" name="nombre" placeholder="nombre"/></td>
+				</tr>
+				<tr>
+					<td colspan="2">Rellene el campo con su email</td>
+					<td><input type="text" name="email" placeholder="email"/></td>
+				</tr>
+				<tr>
+					<td colspan="2">Rellene el campo con su dirección</td>
+					<td>
+						<textarea name="observaciones" id="observaciones" rows="4" cols="30"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Seleccione por qué quiere hacer el bootcamp</td>
+					<td>
+						<input type="checkbox" name="cambiovida" value="Cambio de vida">Cambio de vida<br/>
+						<input type="checkbox" name="aburrimiento" value="aburrimiento">Aburrimiento<br/>
+						<input type="checkbox" name="cervezas" value="cervezas">Las cerverzas<br/>
+						<input type="checkbox" name="josema" value="josema">Josema lo vende bien<br/>
+						<input type="checkbox" name="todas" value="todas">Todas las anteriores
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Género</td>
+					<td>
+						<input type="radio" name="genero" id="Hombre" value="hombre" checked>
+							<label for="hombre">Hombre</label>
+						<input type="radio" name="genero" id="Mujer" value="Mujer">
+							<label for="Mujer">Mujer</label>
+						<input type="radio" name="genero" id="heli" value="heli">
+							<label for="heli">Helicóptero apache</label>
+						<input type="radio" name="genero" id="otro" value="otro">
+							<label for="otro">Otro</label>	
+			<!-- Aquí necesito saber las diferencias de name, id, value y con cual enlaza "for"
+			de la etiqueta label -->
+					</td>
+				<tr>
+					<td colspan="2">Selecciona tu edad</td>
+					<td>
+						<select name="edad" id="edad">
+							<option value="edad">¿Pero que pregunta es esa?</option>
+							<option value="edad">21</option>
+							<option value="edad">22</option>
+							<option value="edad">23</option>
+							<option value="edad">24</option>
+							<option value="edad">25</option>
+							<option value="edad">26</option>
+							<option value="edad">27</option>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center">
+						<input type="file" name="archivo">
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<button type="submit" >Botoncito to' wapo</button>
+					</td>
+					<td align="center">
+						<input type="reset" value="Soft Reset">
+					</td>
+					<td align="center">
+						<input type="submit" value="Enviar">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

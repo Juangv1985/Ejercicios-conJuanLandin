@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Formularios2</title>
+	</head>
+	<body>
+	<!-- Crea un formulario típico de una web. Contendrá un input nombre, email,
+	un textarea donde puedas incluir un mensaje, una checkbox de política de 
+	privacidad, y un botón de enviar.-->
+		<form>
+			<input type="text" name="nombre" placeholder="nombre y apellidos">
+			<input type="text" name="email" placeholder="example@email.com">
+			<button type"submit">Enviar</button>
+		</form>
+		<p>Text área</p>
+			<textarea name="observaciones" id="observaciones" rows="20" cols="20" placeholder=
+			"escribe tu texto aquí"></textarea>
+		
+		<form>
+			<input type="checkbox" name="ejemplo1" value="Ejemplon1" checked>Ejemplon1<br> <input 
+			 type="checkbox" name="ejemplo2" value="ejemplon2"> ejemplo2
+		</form>
+	</body>
+</html>

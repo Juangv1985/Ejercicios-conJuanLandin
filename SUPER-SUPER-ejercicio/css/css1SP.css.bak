@@ -1,0 +1,75 @@
+#header .logo {
+    float:left;
+    width: 15%;
+}
+
+#header a {
+	color:white;
+}
+
+
+#header .titulo {   
+    height: 100px;
+    float:left;
+    width: 59%;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: bold;
+    padding-top: 15px;
+	text-shadow: 2px 2px;
+}
+
+#header {
+	background-color:#333;   
+    color:white;
+    height: 130px;
+    padding:20px;
+	top:0;
+	left:0;
+}
+
+#main  {
+	background-color:#333;
+	padding:3%;
+}
+
+
+#main .fotoh1 {
+	float:left;
+	width:60%;
+	height:15%;
+}
+
+#main .h1 {
+	text-shadow: 2px 2px red;
+	float:left;
+	width:60%;
+	text-align:center;
+}
+
+#main .p1 {
+	color:#808080;
+	float:left;
+	width:60%;
+	height:15%;
+	text-align:center;
+}
+
+#main .fotoh2 {
+	position:relative;
+	float:right;
+	top:0;
+	width:35%;
+	height:15%;
+}
+
+
+#main .p2 {
+	position:relative;
+	float:right;
+	width:35%;
+	height:15%;
+	color:#808080;
+	text-align:center;
+}
+

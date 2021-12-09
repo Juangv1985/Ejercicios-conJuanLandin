@@ -1,0 +1,43 @@
+<style type="text/css">
+p {
+	border: 2px solid blue;
+	background-color: lightblue;
+	text-align: right;
+}
+.main {
+	border: 5px solid red;
+	background-color: lightcoral;
+	text-align: center;
+}
+.base-container {
+	border: 2px solid green;
+	background-color: lightgreen;
+	text-align: center;
+}
+.letraverde {
+	color: green;
+}
+.letraroja {
+	color: red;
+}
+.letrazul {
+	color: blue;
+}
+.header {
+	border: 4px solid violet;
+	background-color: lightblue;
+	text-align: right;
+}	
+#footer {
+	border: 2px solid orange;
+	background-color: yellow;
+	text-align: center;
+}
+
+.lista-sin-punto {
+	list-style: none;
+	color: blue;
+	border: 2px solid green;
+	margin: 40px;
+}
+</style>

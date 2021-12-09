@@ -1,0 +1,3 @@
+como hago para que el siguiente enlace, por ejemplo en la primera web pincho en
+"llamar" y se abre una segunda ventana, como hacer que esa segunda ventana sea 
+directamente la opción de llamar y no tener que volver hacer click

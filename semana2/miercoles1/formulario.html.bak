@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Formularios1</title>
+	</head>
+	<body>
+		<!-- 1.Crea un formulario del login con un email, contraseña y un botón de login.-->
+		<input type="email" name="email" placeholder="example@gmail.com">
+		<input type="password" name="pass" placeholder="contraseña">
+		<input type="submit" value="Enviar">
+	</body>
+</html>

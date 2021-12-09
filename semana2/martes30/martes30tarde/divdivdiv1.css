@@ -1,0 +1,23 @@
+.uno {
+	border: 5px solid red;
+	height: 150px;
+	text-align: center;
+	margin: 20px;
+}
+
+.width-33 {
+	width: 33%;
+}
+
+.dos {
+	border: 5px solid green;
+	height: 150px;
+	text-align: center;
+	margin: 20px;
+}
+.tres {
+	border: 5px solid blue;
+	height: 150px;
+	text-align: center;
+	margin: 20px;
+}

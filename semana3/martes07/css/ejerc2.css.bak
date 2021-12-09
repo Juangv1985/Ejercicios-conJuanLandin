@@ -1,0 +1,19 @@
+.text1 {
+	text-decoration:none;
+}
+
+.circulos {
+	list-style-type: circle;
+}
+
+.cuadrados {
+	list-style-type:square;
+}
+
+.numromanos {
+	list-style-type:upper-roman;
+}
+
+.griegas {
+	list-style-type:lower-greek;
+}

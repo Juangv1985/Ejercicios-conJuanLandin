@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario 1 casa</title>
+	</head>
+	<body>
+		<!-- Crea un formulario en el cual incluyas tres agrupaciones distintas: 
+		Datos personales (tendrá tres inputs), Descripción de la 
+		consulta (tendrá un textarea y un checkbox) y la última, Añadir 
+		más información (un input file y un select)-->
+		<h1>Tres agrupaciones distintas de datos personales</h1>
+			<fieldset>
+				<legend>Datos personales</legend>
+				<input type="text" name="nombre" placeholder="nombre"/></br><br/>
+				<input type="text" name="apellido1" placeholder="primer apellido"/><br/><br/>
+				<input type="text" name="apellido2" placeholder="segundo apellido"/>
+			</fieldset><br/>
+		<h2>Un text área y un checkbox</h2>
+			<fieldset>
+				<legend>Descripción de la consulta</legend>
+				<textarea name="observaciones" id="observaciones" rows="12" cols="95" 
+					placeholder="introduce tu texto"></textarea><br/><br/>
+				<input type="checkbox" name="cine" value="cine">cine</input>
+				<input type="checkbox" name="musica" value="musica" checked>musica</input>
+				<input type="checkbox" name="viajes" value="viaje">viajar</input></br></br>
+				<input type="checkbox" name="fotografia" value="fotografia">fotografia</input>
+				<input type="checkbox" name="videojuegos" value="videojuegos">videojuegos</input>
+				<input type="checkbox" name="cocina" value="cocina">cocinar</input><br/><br/>
+				<input type="checkbox" name="escalar" value="escalar">escalada</input>
+				<input type="checkbox" name="senderismo" value="senderismo">senderismo</input>
+		<!-- imagino que a esto hay que ponerle id o action="contacto.php"? algo que era para enviar 
+		los datos a un servidor o sitio que registra estos datos, esta parte no me quedó muy clara -->
+			</fieldset>
+		<h2>un input file y un select</h2>
+			<fieldset>
+				<legend>Añadir más información</legend>
+					<input type="file" name="archivo"></br><br/>
+					<p>Año nacimiento</p>
+					<select name="year of birth" id="years"
+						<option value="1980" selected>1980</option>
+						<option value="1981" selected>1981</option>
+						<option value="1982" selected>1982</option>
+						<option value="1983" selected>1983</option>
+						<option value="1984" selected>1984</option>
+						<option value="1985" selected>1985</option>
+						<option value="1986" selected>1986</option>
+						<option value="1987" selected>1987</option>
+						<option value="1988" selected>1988</option>
+						<option value="1989" selected>1989</option>
+						<option value="1990" selected>1990</option>
+			</fieldset>
+	</body>
+</html>

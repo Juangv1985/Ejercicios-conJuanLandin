@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	</head>
+		<meta charset="UTF-8">
+		<title>ejercicio1</title>
+		<link href="css1.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<!-- 1- Crear un archivo HTML que contenga una hoja de estilos exterior. Añadir 3 párrafos con al menos
+		30 palabras cada uno.
+		Primer párrafo: Se deberá mostrar en color rojo y dentro de él crear 3 span que deberán aparecer
+		2 subrayados y 1 en negrita.
+		Segundo párrafo: Se deberá mostrar de color negro y y el tamaño de fuente deberá ser el doble que
+		el primer párrafo.
+		Tercer párrafo: Su tipografía será diferente a la del primer y segundo párrafo, el texto se deberá 
+		alinear de forma justificada y la primera letra deberá aparecer en mayúsculas y al doble de tamaño
+		que el resto.
+		Añadir un encabezado antes de cada párrafo que se muestre subrayado y sin negrita
+		Todos los párrafos deberán tener una indentación en su primera línea.
+		Añadir un encabezado antes de cada párrafo que se muestre subrayado y sin negrita. -->
+			<p class="projo">hola hola hola hola hola hola hola<span class="span1"> hola </span>hola hola</p>
+		
